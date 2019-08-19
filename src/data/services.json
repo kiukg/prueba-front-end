@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "5b30f17cb7528927897e3049",
+    "name": "General",
+    "duration": "15"
+  },
+  {
+    "_id": "5b30f173b7528927897e3048",
+    "name": "Holter",
+    "duration": "45"
+  },
+  {
+    "_id": "5b436776a68eb708adb7add1",
+    "name": "Mapa",
+    "duration": "75"
+  }
+]

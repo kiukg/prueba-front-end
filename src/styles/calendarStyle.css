@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.calendar-container {
+    display: grid;
+    /* width: 50vw; */
+    grid-template-columns: auto 1fr;
+    grid-column: 1/span2;
+    border: 2px solid #eaeaea;
+    box-sizing: border-box;
+}
+.calendar-col {
+    /* height: 100%; */
+    display: flex;
+    flex-flow: column wrap;
+}
+.calendar-dates-container {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: calc(25px * 6);
+}
+.availableDays {
+
+    display: flex;
+    /* height: 100%; */
+    /* width: 100%; */
+    /* grid-auto-rows: 35px; */
+    /* align-items: center; */
+    /* justify-items: center; */
+    flex-direction: column;
+    
+}
+.availableDays-item {
+    border: 1px solid #eaeaea;
+    height: 25px;
+    box-sizing: border-box;
+    /* border-collapse: collapse; */
+    background-color: #fff;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 20px 1fr;
+    justify-items: stretch;
+    /* justify-content: center; */
+    padding: 0px 5px;
+}
+.badge-item{
+    background: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.availableDays-label {
+    align-self: center;
+    text-align: left;
+}
+.calendar-hours {
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+}
+.calendar-hours-items {
+    height: 25px;
+    display: grid;
+    align-items: center;
+    background-color: #eaeaea;
+    border: 1px solid white;
+    box-sizing: border-box;
+    justify-content: center;
+    
+}
+.calendar-hours-items .MuiFormControlLabel-root {
+    height: 25px;
+    flex-direction: row-reverse;
+    justify-self: self-start;
+    margin: 0;
+    padding: 0;
+}
+.calendar-hours-items-header{
+    height: 25px;
+    display: grid;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid white;
+    box-sizing: border-box;
+    color: #5797B3 !important;
+}
+.radioButtonCs{
+    height: 100%;
+}
